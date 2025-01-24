@@ -36,12 +36,6 @@
 }
 
 //----------------------------------------------- Containers -----------------------------------------------------------------------
-
-.container {
-	margin-inline: auto;
-	max-inline-size: var(--container-width);
-	padding-inline: var(--container-padding);
-}
 .container-full {
 	padding: 0 var(--container-padding);
 	max-width: 100%;
