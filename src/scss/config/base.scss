@@ -65,7 +65,7 @@ pre.code {
 	}
 }
 //-------------------------------------- Приставка для секций container -------------------------------------------------------------
-[class*="__container"] {
+.container {
 	margin-inline: auto;
 	max-inline-size: var(--container-width);
 	padding-inline: var(--container-padding);

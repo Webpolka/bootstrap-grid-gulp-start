@@ -5188,8 +5188,8 @@ body {
   position: fixed;
   top: 40%;
   left: 50%;
-  width: 45vw;
-  height: 30rem;
+  width: 35vw;
+  height: 20rem;
   transform: translate(-50%, -50%) scale(0);
   transition: all 0.5s ease-in-out;
   z-index: -100;
@@ -5327,6 +5327,7 @@ body {
   padding: 0.5rem;
   border-radius: 0.625rem;
   box-shadow: 0 0 15px 1px #69c0fa;
+  display: none;
 }
 .popup .popup-message h3 {
   text-align: center;
