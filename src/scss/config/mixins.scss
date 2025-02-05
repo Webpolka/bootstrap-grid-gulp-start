@@ -154,55 +154,53 @@
     }
 }
 
-@mixin xs () {
-    @media (max-width: 320px) {
-		@content;
-	}
-}
-
 // -------------------------- Bootstrap mixins ---------------------------
+
+// до 320-
 @mixin xs () {
     @media (max-width: 320px) {
 		@content;
 	}
 }
+// -от 320 до 576-
 @mixin sm () {
     @media (max-width: 576px) {
 		@content;
 	}
 }
+// -от 577 до 768-
 @mixin md () {
     @media (max-width: 768px) {
 		@content;
 	}
 }
+// -от 769 до 992-
 @mixin lg () {
     @media (max-width: 992px) {
 		@content;
 	}
 }
+// -от 993 до 1200-
 @mixin xl () {
     @media (max-width: 1200px) {
 		@content;
 	}
 }
+// больше 1200-
 @mixin xxl () {
-    @media (max-width: 1400px) {
-		@content;
-	}
-}
-@mixin xxxl () {
-    @media (max-width: 1600px) {
+    @media (min-width: 1201px) {
 		@content;
 	}
 }
 
 
+// -планшет
 @mixin tablet () {
     @media (max-width: 1220px) {
 		@content;
 	}
 }
+// -мобильник
 @mixin mobile () {
     @media (max-width: 800px) {
 		@content;

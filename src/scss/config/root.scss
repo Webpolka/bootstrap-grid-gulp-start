@@ -5,7 +5,7 @@
 :root {
 	// -удалите класс .container в utils.scss если не хотите для него жосткой ширины, а хотите пойти по правилам Bootstrap
 	--container-width: 1200px;
-	--container-padding: 1.5rem;
+	--container-padding: 15px;
 	--bs-gutter-x: var(--container-padding);  // --- гутеры для Bootstrap ---
 
 	// ------------ Fonts Vars -------------

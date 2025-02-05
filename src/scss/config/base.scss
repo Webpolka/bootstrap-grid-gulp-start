@@ -70,11 +70,6 @@ pre.code {
 	max-inline-size: var(--container-width);
 	padding-inline: var(--container-padding);
 }
-
-[class*="--grid"] {
-	display: grid;	
-}
-
 // ====================================== Стили отзывчивых картинок (IBG) ===========================================================
 .ibg {
 	position: relative;
